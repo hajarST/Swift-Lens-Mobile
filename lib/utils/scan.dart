@@ -13,7 +13,7 @@ class ScanPage extends StatelessWidget {
         return false;
       },
       child: Card(
-        color: Colors.grey.shade700,
+        color: Colors.blue,
         child: InkWell(
           onTap: () {
             _read(context);
